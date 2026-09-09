@@ -1,45 +1,57 @@
 # App de fotos
 
-Aplicativo desenvolvido em Flutter como atividade prática do curso de Desenvolvimento de Sistemas.
-O projeto consiste em um aplicativo de galeria pessoal, no qual o usuário pode tirar fotos pelo próprio aplicativo, adicionar uma anotação e visualizar os momentos registrados.
+Aplicativo desenvolvido em Flutter para registro e organização de momentos por meio de fotografias.
 
-## Funcionalidades
+O aplicativo permite que o usuário tire fotos utilizando a câmera do próprio dispositivo, adicione uma anotação ao momento registrado e visualize suas fotos dentro do aplicativo.
 
-- Tela de abertura (Splash Screen)
-- Tela principal do aplicativo
-- Captura de fotos utilizando a câmera do dispositivo
-- Armazenamento das fotos tiradas pelo próprio aplicativo
-- Visualização das fotos salvas
-- Registro da data e horário da foto
-- Adição de anotações aos momentos registrados
-- Visualização dos detalhes de uma foto
-- Exclusão de fotos salvas
-- Salvamento de uma foto na galeria do dispositivo
+---
 
-> As fotos que já estavam salvas anteriormente na galeria do celular não são carregadas pelo aplicativo. A galeria exibida pelo aplicativo contém somente as fotos registradas pelo próprio aplicativo.
+## Sobre o projeto
 
-## Tecnologias utilizadas
+O app de fotos foi desenvolvido como atividade prática do curso de Desenvolvimento de Sistemas.
+
+A proposta do projeto é criar uma aplicação simples de registro de momentos, permitindo que o usuário:
+
+- Tire fotografias utilizando a câmera do celular;
+- Salve as fotografias registradas pelo aplicativo;
+- Adicione uma anotação para cada foto;
+- Visualize os momentos registrados;
+- Consulte a data e o horário em que a foto foi tirada;
+- Acesse os detalhes de cada momento;
+- Exclua fotografias;
+- Salve uma fotografia na galeria do dispositivo.
+
+As fotografias que já estavam armazenadas na galeria do celular não são carregadas pelo aplicativo. Somente as fotos registradas e armazenadas pelo próprio aplicativo são exibidas.
+
+---
+
+##  Tecnologias utilizadas
 
 - Flutter
 - Dart
 - Android
-- image_picker
-- gal
-- path_provider
+- Image Picker
+- Gal
+- Path Provider
+
+---
+## Prints
+- Estão na pasta /assets.
+---
 
 ## Estrutura do projeto
 
 ```text
 lib/
 ├── main.dart
+│
 ├── models/
 │   └── foto.dart
+│
 ├── services/
 │   └── foto_service.dart
+│
 └── screens/
     ├── splash.dart
     ├── home.dart
     └── detalhes.dart
-
-## Prints
-- Estão dentro da pasta /assets.
